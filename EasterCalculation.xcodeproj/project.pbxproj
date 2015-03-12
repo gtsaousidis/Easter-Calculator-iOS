@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0997E5541AB203940005A186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E5531AB203940005A186 /* main.m */; };
+		0997E5571AB203940005A186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E5561AB203940005A186 /* AppDelegate.m */; };
+		0997E55A1AB203940005A186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E5591AB203940005A186 /* ViewController.m */; };
+		0997E55D1AB203940005A186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0997E55B1AB203940005A186 /* Main.storyboard */; };
+		0997E55F1AB203940005A186 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0997E55E1AB203940005A186 /* Images.xcassets */; };
+		0997E5621AB203940005A186 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0997E5601AB203940005A186 /* LaunchScreen.xib */; };
+		0997E56E1AB203940005A186 /* EasterCalculationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E56D1AB203940005A186 /* EasterCalculationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0997E5681AB203940005A186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0997E5461AB203940005A186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0997E54D1AB203940005A186;
+			remoteInfo = EasterCalculation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0997E54E1AB203940005A186 /* EasterCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasterCalculation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0997E5521AB203940005A186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0997E5531AB203940005A186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0997E5551AB203940005A186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0997E5561AB203940005A186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0997E5581AB203940005A186 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0997E5591AB203940005A186 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0997E55C1AB203940005A186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0997E55E1AB203940005A186 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0997E5611AB203940005A186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0997E5671AB203940005A186 /* EasterCalculationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasterCalculationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0997E56C1AB203940005A186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0997E56D1AB203940005A186 /* EasterCalculationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasterCalculationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0997E54B1AB203940005A186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0997E5641AB203940005A186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0997E5451AB203940005A186 = {
+			isa = PBXGroup;
+			children = (
+				0997E5501AB203940005A186 /* EasterCalculation */,
+				0997E56A1AB203940005A186 /* EasterCalculationTests */,
+				0997E54F1AB203940005A186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0997E54F1AB203940005A186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0997E54E1AB203940005A186 /* EasterCalculation.app */,
+				0997E5671AB203940005A186 /* EasterCalculationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0997E5501AB203940005A186 /* EasterCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				0997E5551AB203940005A186 /* AppDelegate.h */,
+				0997E5561AB203940005A186 /* AppDelegate.m */,
+				0997E5581AB203940005A186 /* ViewController.h */,
+				0997E5591AB203940005A186 /* ViewController.m */,
+				0997E55B1AB203940005A186 /* Main.storyboard */,
+				0997E55E1AB203940005A186 /* Images.xcassets */,
+				0997E5601AB203940005A186 /* LaunchScreen.xib */,
+				0997E5511AB203940005A186 /* Supporting Files */,
+			);
+			path = EasterCalculation;
+			sourceTree = "<group>";
+		};
+		0997E5511AB203940005A186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0997E5521AB203940005A186 /* Info.plist */,
+				0997E5531AB203940005A186 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0997E56A1AB203940005A186 /* EasterCalculationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0997E56D1AB203940005A186 /* EasterCalculationTests.m */,
+				0997E56B1AB203940005A186 /* Supporting Files */,
+			);
+			path = EasterCalculationTests;
+			sourceTree = "<group>";
+		};
+		0997E56B1AB203940005A186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0997E56C1AB203940005A186 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0997E54D1AB203940005A186 /* EasterCalculation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0997E5711AB203940005A186 /* Build configuration list for PBXNativeTarget "EasterCalculation" */;
+			buildPhases = (
+				0997E54A1AB203940005A186 /* Sources */,
+				0997E54B1AB203940005A186 /* Frameworks */,
+				0997E54C1AB203940005A186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasterCalculation;
+			productName = EasterCalculation;
+			productReference = 0997E54E1AB203940005A186 /* EasterCalculation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0997E5661AB203940005A186 /* EasterCalculationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0997E5741AB203940005A186 /* Build configuration list for PBXNativeTarget "EasterCalculationTests" */;
+			buildPhases = (
+				0997E5631AB203940005A186 /* Sources */,
+				0997E5641AB203940005A186 /* Frameworks */,
+				0997E5651AB203940005A186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0997E5691AB203940005A186 /* PBXTargetDependency */,
+			);
+			name = EasterCalculationTests;
+			productName = EasterCalculationTests;
+			productReference = 0997E5671AB203940005A186 /* EasterCalculationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0997E5461AB203940005A186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "DFG-Team";
+				TargetAttributes = {
+					0997E54D1AB203940005A186 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0997E5661AB203940005A186 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0997E54D1AB203940005A186;
+					};
+				};
+			};
+			buildConfigurationList = 0997E5491AB203940005A186 /* Build configuration list for PBXProject "EasterCalculation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0997E5451AB203940005A186;
+			productRefGroup = 0997E54F1AB203940005A186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0997E54D1AB203940005A186 /* EasterCalculation */,
+				0997E5661AB203940005A186 /* EasterCalculationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0997E54C1AB203940005A186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0997E55D1AB203940005A186 /* Main.storyboard in Resources */,
+				0997E5621AB203940005A186 /* LaunchScreen.xib in Resources */,
+				0997E55F1AB203940005A186 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0997E5651AB203940005A186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0997E54A1AB203940005A186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0997E55A1AB203940005A186 /* ViewController.m in Sources */,
+				0997E5571AB203940005A186 /* AppDelegate.m in Sources */,
+				0997E5541AB203940005A186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0997E5631AB203940005A186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0997E56E1AB203940005A186 /* EasterCalculationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0997E5691AB203940005A186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0997E54D1AB203940005A186 /* EasterCalculation */;
+			targetProxy = 0997E5681AB203940005A186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0997E55B1AB203940005A186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0997E55C1AB203940005A186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0997E5601AB203940005A186 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0997E5611AB203940005A186 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0997E56F1AB203940005A186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0997E5701AB203940005A186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0997E5721AB203940005A186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasterCalculation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0997E5731AB203940005A186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasterCalculation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0997E5751AB203940005A186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasterCalculationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterCalculation.app/EasterCalculation";
+			};
+			name = Debug;
+		};
+		0997E5761AB203940005A186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasterCalculationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterCalculation.app/EasterCalculation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0997E5491AB203940005A186 /* Build configuration list for PBXProject "EasterCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0997E56F1AB203940005A186 /* Debug */,
+				0997E5701AB203940005A186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0997E5711AB203940005A186 /* Build configuration list for PBXNativeTarget "EasterCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0997E5721AB203940005A186 /* Debug */,
+				0997E5731AB203940005A186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0997E5741AB203940005A186 /* Build configuration list for PBXNativeTarget "EasterCalculationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0997E5751AB203940005A186 /* Debug */,
+				0997E5761AB203940005A186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0997E5461AB203940005A186 /* Project object */;
+}
