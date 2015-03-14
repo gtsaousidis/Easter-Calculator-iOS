@@ -1,25 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment version="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orthodox Easter Calculation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kH-1J-nKd">
+                                <rect key="frame" x="22" y="46" width="277" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="L0U-MJ-t5X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="19"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the year : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8P-5Q-mNy">
+                                <rect key="frame" x="22" y="137" width="176" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ey7-lJ-iFc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aQl-hf-sWY">
+                                <rect key="frame" x="207" y="133" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <connections>
+                                    <action selector="convertStringToInt:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="tRS-ga-y6W"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="5uv-vZ-F94"/>
+                                </connections>
+                            </textField>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="easter" translatesAutoresizingMaskIntoConstraints="NO" id="PgJ-34-yqG">
+                                <rect key="frame" x="40" y="275" width="240" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="pmt-eq-Mpi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L8P-5Q-mNy" firstAttribute="top" secondItem="0kH-1J-nKd" secondAttribute="bottom" constant="65" id="1bE-2y-5di"/>
+                            <constraint firstItem="0kH-1J-nKd" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="3Uv-Fz-kac"/>
+                            <constraint firstItem="aQl-hf-sWY" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="4UX-3T-U59"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="PgJ-34-yqG" secondAttribute="bottom" constant="73" id="9qS-qj-Zc8"/>
+                            <constraint firstItem="aQl-hf-sWY" firstAttribute="leading" secondItem="L8P-5Q-mNy" secondAttribute="trailing" constant="9" id="Eq7-t8-Q4b"/>
+                            <constraint firstItem="L8P-5Q-mNy" firstAttribute="leading" secondItem="0kH-1J-nKd" secondAttribute="leading" id="Neb-oS-E42"/>
+                            <constraint firstItem="PgJ-34-yqG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="24" id="WMP-4B-iAE"/>
+                            <constraint firstItem="0kH-1J-nKd" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="26" id="WeX-49-y68"/>
+                            <constraint firstItem="aQl-hf-sWY" firstAttribute="top" secondItem="0kH-1J-nKd" secondAttribute="bottom" constant="61" id="YCa-9m-8Oq"/>
+                            <constraint firstItem="0kH-1J-nKd" firstAttribute="centerX" secondItem="PgJ-34-yqG" secondAttribute="centerX" id="hFs-J7-pPL"/>
+                            <constraint firstItem="0kH-1J-nKd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="6" id="yHw-Vc-s9Q"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="yearForTheEasterCalculating" destination="aQl-hf-sWY" id="8KI-NC-mYw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="234" y="406"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="easter" width="384" height="256"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

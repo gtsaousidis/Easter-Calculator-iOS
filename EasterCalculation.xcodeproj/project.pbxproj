@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0933F5151AB37A4C005F05F3 /* easterCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933F5141AB37A4C005F05F3 /* easterCalculation.m */; };
+		0933F5171AB47F07005F05F3 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0933F5161AB47F07005F05F3 /* Images-2.xcassets */; };
+		0933F51A1AB493A9005F05F3 /* chechingForNonNumeric.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933F5191AB493A9005F05F3 /* chechingForNonNumeric.m */; };
 		0997E5541AB203940005A186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E5531AB203940005A186 /* main.m */; };
 		0997E5571AB203940005A186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E5561AB203940005A186 /* AppDelegate.m */; };
 		0997E55A1AB203940005A186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E5591AB203940005A186 /* ViewController.m */; };
 		0997E55D1AB203940005A186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0997E55B1AB203940005A186 /* Main.storyboard */; };
-		0997E55F1AB203940005A186 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0997E55E1AB203940005A186 /* Images.xcassets */; };
 		0997E5621AB203940005A186 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0997E5601AB203940005A186 /* LaunchScreen.xib */; };
 		0997E56E1AB203940005A186 /* EasterCalculationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E56D1AB203940005A186 /* EasterCalculationTests.m */; };
 /* End PBXBuildFile section */
@@ -27,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0933F5131AB37A4C005F05F3 /* easterCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easterCalculation.h; sourceTree = "<group>"; };
+		0933F5141AB37A4C005F05F3 /* easterCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = easterCalculation.m; sourceTree = "<group>"; };
+		0933F5161AB47F07005F05F3 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		0933F5181AB493A9005F05F3 /* chechingForNonNumeric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chechingForNonNumeric.h; sourceTree = "<group>"; };
+		0933F5191AB493A9005F05F3 /* chechingForNonNumeric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chechingForNonNumeric.m; sourceTree = "<group>"; };
 		0997E54E1AB203940005A186 /* EasterCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasterCalculation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0997E5521AB203940005A186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0997E5531AB203940005A186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,7 +42,6 @@
 		0997E5581AB203940005A186 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0997E5591AB203940005A186 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0997E55C1AB203940005A186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0997E55E1AB203940005A186 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0997E5611AB203940005A186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0997E5671AB203940005A186 /* EasterCalculationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasterCalculationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0997E56C1AB203940005A186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,9 +91,13 @@
 				0997E5561AB203940005A186 /* AppDelegate.m */,
 				0997E5581AB203940005A186 /* ViewController.h */,
 				0997E5591AB203940005A186 /* ViewController.m */,
+				0933F5131AB37A4C005F05F3 /* easterCalculation.h */,
+				0933F5141AB37A4C005F05F3 /* easterCalculation.m */,
+				0933F5181AB493A9005F05F3 /* chechingForNonNumeric.h */,
+				0933F5191AB493A9005F05F3 /* chechingForNonNumeric.m */,
 				0997E55B1AB203940005A186 /* Main.storyboard */,
-				0997E55E1AB203940005A186 /* Images.xcassets */,
 				0997E5601AB203940005A186 /* LaunchScreen.xib */,
+				0933F5161AB47F07005F05F3 /* Images-2.xcassets */,
 				0997E5511AB203940005A186 /* Supporting Files */,
 			);
 			path = EasterCalculation;
@@ -199,9 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0933F5171AB47F07005F05F3 /* Images-2.xcassets in Resources */,
 				0997E55D1AB203940005A186 /* Main.storyboard in Resources */,
 				0997E5621AB203940005A186 /* LaunchScreen.xib in Resources */,
-				0997E55F1AB203940005A186 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0997E55A1AB203940005A186 /* ViewController.m in Sources */,
+				0933F5151AB37A4C005F05F3 /* easterCalculation.m in Sources */,
 				0997E5571AB203940005A186 /* AppDelegate.m in Sources */,
+				0933F51A1AB493A9005F05F3 /* chechingForNonNumeric.m in Sources */,
 				0997E5541AB203940005A186 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EasterCalculation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EasterCalculation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +428,7 @@
 				0997E5731AB203940005A186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0997E5741AB203940005A186 /* Build configuration list for PBXNativeTarget "EasterCalculationTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				0997E5761AB203940005A186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
