@@ -61,26 +61,74 @@
         self.easterY = x - 26;
         
         
-        NSString *messageX =   [NSString stringWithFormat: @"For the year %d Easter is at %d April!", self.yearOfEaster, self.easterX];
-        NSString *messageY =   [NSString stringWithFormat: @"For the year %d Easter is at %d May!", self.yearOfEaster, self.easterY];
+        NSDateComponents *easterDay = [[NSDateComponents alloc] init];
+        [easterDay setYear:self.yearOfEaster];
         
         
-        UIAlertView *alertTheEasterX = [[UIAlertView alloc]initWithTitle:nil
-                                                                 message:messageX
-                                                                delegate:nil
-                                                       cancelButtonTitle:@"Ok"
-                                                       otherButtonTitles:nil];
+        NSCalendar *calendar = [NSCalendar currentCalendar];
         
-        UIAlertView *alertTheEasterY = [[UIAlertView alloc]initWithTitle:nil
-                                                                 message:messageY
-                                                                delegate:nil
-                                                       cancelButtonTitle:@"Ok"
-                                                       otherButtonTitles:nil];
+        
+        NSDateFormatter* df = [[NSDateFormatter alloc]init];
+        [df setDateFormat:@"dd/MM/yyyy"];
         
         if ( self.easterX  < 30) {
+            
+            
+            
+            [easterDay setMonth:4];
+            [easterDay setDay:self.easterX];
+            
+            
+            
+            NSDate *easterDayX = [calendar dateFromComponents:easterDay];
+            
+            
+            NSString *result = [df stringFromDate:easterDayX];
+            
+            
+            NSString *messageX =   [NSString stringWithFormat: @"For the year %ld Easter is at %@!", (long)self.yearOfEaster, result];
+            
+            
+            UIAlertView *alertTheEasterX = [[UIAlertView alloc]initWithTitle:nil
+                                                                     message:messageX
+                                                                    delegate:nil
+                                                           cancelButtonTitle:@"Ok"
+                                                           otherButtonTitles:nil];
+            
+            
+            NSLog(@"fere to date %@", result);
+            
+            
             [alertTheEasterX show];
         }
         else {
+            
+            
+            
+            [easterDay setMonth:5];
+            [easterDay setDay:self.easterY];
+            
+            
+            
+            NSDate *easterDayY= [calendar dateFromComponents:easterDay];
+            
+            
+            NSString *result = [df stringFromDate:easterDayY];
+            
+            
+            NSString *messageY =   [NSString stringWithFormat: @"For the year %ld Easter is at %@!", self.yearOfEaster, result];
+            
+            
+            
+            
+            UIAlertView *alertTheEasterY = [[UIAlertView alloc]initWithTitle:nil
+                                                                     message:messageY
+                                                                    delegate:nil
+                                                           cancelButtonTitle:@"Ok"
+                                                           otherButtonTitles:nil];
+            
+            
+            
             [alertTheEasterY show];
         }
     
