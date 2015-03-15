@@ -12,7 +12,7 @@
 
 - (NSInteger) takeTheYear:(NSInteger) year{
     
-    NSInteger days =7;
+    NSInteger days = 7;
     NSInteger a = year%19;
     NSInteger b = year%4;
     NSInteger c = year % days;

@@ -66,6 +66,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0987C6EA1AB621A8000B93A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0933F5131AB37A4C005F05F3 /* easterCalculation.h */,
+				0933F5141AB37A4C005F05F3 /* easterCalculation.m */,
+				0933F5181AB493A9005F05F3 /* chechingForNonNumeric.h */,
+				0933F5191AB493A9005F05F3 /* chechingForNonNumeric.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0987C6EB1AB621BB000B93A1 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				0997E5551AB203940005A186 /* AppDelegate.h */,
+				0997E5561AB203940005A186 /* AppDelegate.m */,
+				0997E5581AB203940005A186 /* ViewController.h */,
+				0997E5591AB203940005A186 /* ViewController.m */,
+				0997E55B1AB203940005A186 /* Main.storyboard */,
+				0997E5601AB203940005A186 /* LaunchScreen.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
 		0997E5451AB203940005A186 = {
 			isa = PBXGroup;
 			children = (
@@ -87,16 +111,8 @@
 		0997E5501AB203940005A186 /* EasterCalculation */ = {
 			isa = PBXGroup;
 			children = (
-				0997E5551AB203940005A186 /* AppDelegate.h */,
-				0997E5561AB203940005A186 /* AppDelegate.m */,
-				0997E5581AB203940005A186 /* ViewController.h */,
-				0997E5591AB203940005A186 /* ViewController.m */,
-				0933F5131AB37A4C005F05F3 /* easterCalculation.h */,
-				0933F5141AB37A4C005F05F3 /* easterCalculation.m */,
-				0933F5181AB493A9005F05F3 /* chechingForNonNumeric.h */,
-				0933F5191AB493A9005F05F3 /* chechingForNonNumeric.m */,
-				0997E55B1AB203940005A186 /* Main.storyboard */,
-				0997E5601AB203940005A186 /* LaunchScreen.xib */,
+				0987C6EB1AB621BB000B93A1 /* GUI */,
+				0987C6EA1AB621A8000B93A1 /* Model */,
 				0933F5161AB47F07005F05F3 /* Images-2.xcassets */,
 				0997E5511AB203940005A186 /* Supporting Files */,
 			);
