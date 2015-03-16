@@ -71,6 +71,8 @@
         NSDateFormatter* df = [[NSDateFormatter alloc]init];
         [df setDateFormat:@"dd/MM/yyyy"];
         
+        
+        //Define if the Easter is the April or the May, in Orthodox Easter is only in this two months//
         if ( self.easterX  < 30) {
             
             
@@ -94,9 +96,6 @@
                                                                     delegate:nil
                                                            cancelButtonTitle:@"Ok"
                                                            otherButtonTitles:nil];
-            
-            
-            NSLog(@"fere to date %@", result);
             
             
             [alertTheEasterX show];
